@@ -1,7 +1,7 @@
 {
-  "versionCode": 0,
-  "versionName": "0.0.0",
-  "apkUrl": "",
-  "apkSha256": "",
-  "changelog": "Placeholder. No release yet — the release workflow overwrites this file on the first tag."
+  "versionCode": 6,
+  "versionName": "0.1.2",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.1.2/MobileIPTV-v0.1.2.apk",
+  "apkSha256": "157480a563b949711ee4728a83cf8ceb8a73f5713e88249613f9d899e4cf5911",
+  "changelog": "First sideload release.\n\nMobileIPTV is a player. You supply your own source; nothing is bundled.\n\n**Sources**\n- Add an Xtream line or an M3U playlist. Xtream URLs are auto-corrected, and a\n  pasted URL that carries credentials fills the fields for you.\n- Test Connection reports the account's real state before you commit to an import.\n- Edit a source without losing anything: renaming or fixing a URL keeps every\n  favourite, watch time and category choice.\n\n**Catalog**\n- Live, Movies and Series, each with its own search and its own empty state.\n- Categories can be enabled or disabled in bulk, honouring whatever filter is on\n  screen.\n- Content languages are detected per item and can be filtered, with a one-tap\n  \"Only this language\".\n- Search matches from the start of a name and falls back to matching anywhere in\n  it, so a name carrying a country prefix is still findable.\n- Large catalogs are the design target: browsing stays responsive at hundreds of\n  thousands of items.\n\n**Guide**\n- XMLTV guide ingest with automatic URL discovery.\n- Now and next shown against each channel, recomputed when you return to the app.\n- A per-channel schedule screen.\n\n**Playback**\n- Hardware decode by default, with automatic fallback and a per-stream blocklist\n  for devices that mishandle a particular stream.\n- Channel up/down surfs the list you were browsing.\n- Aspect and zoom modes are remembered and applied to the first frame.\n- The screen stays awake while playing or buffering.\n- Stalls and errors are detected and recovered from, with bounded retries and a\n  plain-language message when a stream genuinely cannot play.\n\n**Other**\n- Check visible channels for a working stream, paced so it will not trip a\n  provider's rate limits.\n- Favourites and watch history.\n- In-app update checking for this sideload build.\n\nKnown limits: multi-view, picture-in-picture, DVR, catchup and recording are not\nin this build."
 }
