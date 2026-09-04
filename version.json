@@ -1,7 +1,7 @@
 {
-  "versionCode": 11,
-  "versionName": "0.2.4",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.2.4/MobileIPTV-v0.2.4.apk",
-  "apkSha256": "779bf976392053a747585565bfeab9d57075ae0eef7b90459fe9dd42e6f4d3cc",
-  "changelog": "Fixes for what v0.2.3's Plex tab could not do.\n\n**Plex**\n- \"Use this server\" now works. It did nothing at all in v0.2.3 \u2014 the button was\n  wired to a guard that refused it, silently, with no error.\n- Choosing a server now actually imports its films and shows. v0.2.3 added the\n  source and stopped, and said importing was not built, which had stopped being\n  true. If you added a Plex server on v0.2.3, remove it and add it again.\n- The plex.tv/link address is a link you can tap. It is still shown in full,\n  because signing in on a laptop that is already logged in is often easier.\n- Sign-in and finding your servers worked in v0.2.3 and are unchanged.\n\n**Still not proven**\n- Playing a Plex item has never succeeded, because until now nothing got far\n  enough to try. The catalog should be right; playback is the next thing likely\n  to fail, and it will fail visibly rather than quietly.\n\nKnown limits: multi-view, picture-in-picture, DVR and recording are not in this\nbuild. Catch-up still has not been tested against a real provider archive."
+  "versionCode": 12,
+  "versionName": "0.2.5",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.2.5/MobileIPTV-v0.2.5.apk",
+  "apkSha256": "463fa8f61f593303d501a81bfcc76b7fecdc262ef98424a1a1a1e015cfdd473c",
+  "changelog": "A fix for adding a Plex server from a phone that is not on the server's network.\n\n**Plex**\n- The app now tries each of a server's addresses and uses the first that answers,\n  instead of assuming the local one works. If your phone is on a VPN, or on\n  mobile data, or on a different network from the server, the local address has\n  no route \u2014 and v0.2.4 picked it anyway and failed after fifteen seconds,\n  reporting a working server as broken.\n- When none of the addresses answer, the message now lists what was tried and\n  says what to do: turn the VPN off, or enable Remote Access on the server.\n- Each address is given three seconds rather than fifteen, so trying several is\n  quick.\n\n**Still not proven**\n- Playing a Plex item has never succeeded. Nothing has yet got far enough to try.\n\nKnown limits: multi-view, picture-in-picture, DVR and recording are not in this\nbuild. Catch-up still has not been tested against a real provider archive."
 }
