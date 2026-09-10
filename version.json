@@ -1,8 +1,8 @@
 {
-  "versionCode": 19,
-  "versionName": "0.3.1",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.1/MobileIPTV-v0.3.1.apk",
-  "apkSha256": "c87714cec12dd4f44921dbcc9fcb16c1ce01631ff81caf47b569d55075eef119",
+  "versionCode": 20,
+  "versionName": "0.3.2",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.2/MobileIPTV-v0.3.2.apk",
+  "apkSha256": "ffa9f7902462d07291c1172d51cc8d11e2442acda08376b7a1ff1edbb25be3f5",
   "changelog": "Settings you can actually navigate.\n\n**Settings is rebuilt**\n- Collapsible groups in a sensible order, with Sources last rather than\n  first. Sections for features that do not exist yet are simply absent,\n  not greyed out.\n- Every setting now has an info button explaining what it does and what\n  the trade-off is.\n\n**New things you can change**\n- Picture fit, how long the player controls stay up (including \"Never\"),\n  and whether a highlighted channel starts loading early.\n- How many streams a scan checks (up to 100) and how long each one gets\n  (3 to 30 seconds). Both were fixed at 25 and 8 seconds before, with no\n  way to reach them.\n- Open-source licences, listing every component this build is made from.\n\n**Editing a source keeps everything**\n- Colour, channel order, hide-headers and a max-connections cap are all\n  editable now, and the screen shows what the provider itself reports:\n  its connection limit, your content counts and the subscription expiry.\n- Your connection cap is stored separately from the number the provider\n  reports, so a refresh can no longer wipe it.\n- Changing one field leaves every other field alone \u2014 there is now a test\n  that saves, reloads from the database and checks exactly that.\n\n**Scanning tells the truth more often**\n- A stream that answered too slowly to identify was being marked dead if\n  its address looked like a playlist. It is now marked unknown, which is\n  what it is.\n- Films and series show the scan result too. They were being scanned all\n  along, and nothing displayed it.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.1"
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.2"
 }
