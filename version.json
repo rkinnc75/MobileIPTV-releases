@@ -1,8 +1,8 @@
 {
-  "versionCode": 28,
-  "versionName": "0.3.3.14",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.3.14/MobileIPTV-v0.3.3.14.apk",
-  "apkSha256": "8eccf63402f25afe338e5e8b06bc4ec38c35f74e22b3d60082d29e0c33e5b12e",
-  "changelog": "Pairing codes are going nine digits, and this phone is ready for both.\n\nWHAT CHANGED\n\n- Televisions will start showing nine-digit pairing codes, grouped in\n  threes so they are easier to read out: 123 456 789. Type the digits\n  as you always did - the spaces are only on the television's screen.\n- During the changeover this phone accepts both lengths: six digits\n  from a television that has not updated yet, nine from one that has.\n  The scanner reads both too.\n- The entry field now takes up to nine digits.\n\nWHAT STAYS THE SAME\n\n- Everything else. Pairing still lasts until you end it, sending works\n  the same way, and nothing you already use has moved.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.3.14"
+  "versionCode": 29,
+  "versionName": "0.3.3.15",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.3.15/MobileIPTV-v0.3.3.15.apk",
+  "apkSha256": "193f0cbe4d918d2e831dd5d3e389cd47ba07807a6958202daea0b11ae1327420",
+  "changelog": "When a stream fails on the television, this phone now finds out why.\n\nWHAT CHANGED\n\n- If the television reports a failed stream, the phone quietly tries the\n  same channel itself, with the same details, and then tells you what it\n  learned: whether the channel plays on the phone (so the stream is\n  alive and the problem is between the provider and the television), or\n  whether it fails here too (so the channel itself is the problem).\n- The television's own report is shown alongside, in its own words:\n  what the server answered, or that it did not answer at all.\n\nWHAT STAYS THE SAME\n\n- Everything else. Sending, pairing and playback are unchanged; you\n  only see anything new when a cast actually fails.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.3.15"
 }
