@@ -1,8 +1,8 @@
 {
-  "versionCode": 1001,
-  "versionName": "0.1.1",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.1/PerchTV-v0.1.1.apk",
-  "apkSha256": "a1be4a02a770004edcdbfd1781685273561b4c61e8d711f8ec8a7ac6eb58b144",
-  "changelog": "PerchTV can now keep itself up to date, and pairing codes grow to nine digits.\n\nWHAT CHANGED\n\n- PerchTV now checks for a new version on its own, about twice a day,\n  and offers to download and install it on screen. Update now, or Later\n  - Later declines only that version, never the next one. Downloads are\n  checked against their published checksum before anything installs.\n- Pairing codes are now nine digits, shown grouped in threes so they\n  are easier to read across the room: 123 456 789. The QR code carries\n  the same digits. During the changeover a six-digit code from before\n  the change still works - the phone accepts both.\n\nWHAT WAS FIXED\n\n- A brief network hiccup could stop the stream and put up \"The phone\n  stopped the stream\" when the phone had sent nothing at all. The\n  television now keeps playing through a reconnect - the stream comes\n  straight from the provider - and says \"The pairing ended\" only when a\n  pairing actually ends.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.1"
+  "versionCode": 1002,
+  "versionName": "0.1.2",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.2/PerchTV-v0.1.2.apk",
+  "apkSha256": "04899a62d281f25440e7bacae5f08888c1833663c999a90e5c60d33d442fe11d",
+  "changelog": "A stream that fails now says what happened, in plain words.\n\nWHAT CHANGED\n\n- Instead of only \"could not play that stream\", the television now says\n  what it observed: the server says the stream is gone, the server\n  refused it, the server did not answer, the connection failed, or what\n  arrived was not playable.\n- A stream this television cannot decode says so in its own words, so a\n  format problem is never mistaken for a network problem.\n- The television also sends its observation back to the phone, which\n  checks the same channel from its side and tells you whether the\n  stream is actually alive.\n\nWHAT STAYS THE SAME\n\n- Everything else. Pairing, playback and updating are unchanged; only\n  the words on a failure are new.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.2"
 }
