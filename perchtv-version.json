@@ -1,8 +1,8 @@
 {
-  "versionCode": 1002,
-  "versionName": "0.1.2",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.2/PerchTV-v0.1.2.apk",
-  "apkSha256": "04899a62d281f25440e7bacae5f08888c1833663c999a90e5c60d33d442fe11d",
-  "changelog": "A stream that fails now says what happened, in plain words.\n\nWHAT CHANGED\n\n- Instead of only \"could not play that stream\", the television now says\n  what it observed: the server says the stream is gone, the server\n  refused it, the server did not answer, the connection failed, or what\n  arrived was not playable.\n- A stream this television cannot decode says so in its own words, so a\n  format problem is never mistaken for a network problem.\n- The television also sends its observation back to the phone, which\n  checks the same channel from its side and tells you whether the\n  stream is actually alive.\n\nWHAT STAYS THE SAME\n\n- Everything else. Pairing, playback and updating are unchanged; only\n  the words on a failure are new.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.2"
+  "versionCode": 1003,
+  "versionName": "0.1.3",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.3/PerchTV-v0.1.3.apk",
+  "apkSha256": "ad6c5ad3b560894111f534702377e7691f3f20a92559f5e477ace9196d1372d1",
+  "changelog": "Streams from a provider that checks the user-agent now play.\n\nWHAT WAS FIXED\n\n- Some providers (and the CDNs in front of them) refuse a request that\n  names a raw library instead of a player, even with the right\n  credentials. The television was sending exactly that, so every stream\n  from such a provider failed while the phone played it fine. The\n  television now introduces itself as PerchTV, the way the phone\n  introduces itself as MobileIPTV.\n- A channel that asks for a specific user-agent still gets it.\n\nWHAT STAYS THE SAME\n\n- Everything else. Pairing, playback, updating and the failure words\n  from 0.1.2 are unchanged.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.3"
 }
