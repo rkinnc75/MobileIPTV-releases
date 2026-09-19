@@ -1,0 +1,8 @@
+{
+  "versionCode": 1001,
+  "versionName": "0.1.1",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.1/PerchTV-v0.1.1.apk",
+  "apkSha256": "a1be4a02a770004edcdbfd1781685273561b4c61e8d711f8ec8a7ac6eb58b144",
+  "changelog": "PerchTV can now keep itself up to date, and pairing codes grow to nine digits.\n\nWHAT CHANGED\n\n- PerchTV now checks for a new version on its own, about twice a day,\n  and offers to download and install it on screen. Update now, or Later\n  - Later declines only that version, never the next one. Downloads are\n  checked against their published checksum before anything installs.\n- Pairing codes are now nine digits, shown grouped in threes so they\n  are easier to read across the room: 123 456 789. The QR code carries\n  the same digits. During the changeover a six-digit code from before\n  the change still works - the phone accepts both.\n\nWHAT WAS FIXED\n\n- A brief network hiccup could stop the stream and put up \"The phone\n  stopped the stream\" when the phone had sent nothing at all. The\n  television now keeps playing through a reconnect - the stream comes\n  straight from the provider - and says \"The pairing ended\" only when a\n  pairing actually ends.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.1"
+}
