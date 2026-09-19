@@ -1,8 +1,8 @@
 {
-  "versionCode": 1003,
-  "versionName": "0.1.3",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.3/PerchTV-v0.1.3.apk",
-  "apkSha256": "ad6c5ad3b560894111f534702377e7691f3f20a92559f5e477ace9196d1372d1",
-  "changelog": "Streams from a provider that checks the user-agent now play.\n\nWHAT WAS FIXED\n\n- Some providers (and the CDNs in front of them) refuse a request that\n  names a raw library instead of a player, even with the right\n  credentials. The television was sending exactly that, so every stream\n  from such a provider failed while the phone played it fine. The\n  television now introduces itself as PerchTV, the way the phone\n  introduces itself as MobileIPTV.\n- A channel that asks for a specific user-agent still gets it.\n\nWHAT STAYS THE SAME\n\n- Everything else. Pairing, playback, updating and the failure words\n  from 0.1.2 are unchanged.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.3"
+  "versionCode": 1004,
+  "versionName": "0.1.4",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.4/PerchTV-v0.1.4.apk",
+  "apkSha256": "dd0bef4dd3df1a1b548b84cb70b20992dfa43f9386baac57f24eee00e75e0bcb",
+  "changelog": "A paused film starts again when you press OK.\n\nWHAT WAS FIXED\n\n- Pausing worked, but the television did not notice it had paused, so\n  the next press paused again instead of starting the film. It now\n  notices, and OK pauses and starts the way you would expect.\n- The paused indicator on the television works now, and the phone can\n  see when the television is paused.\n\nWHAT STAYS THE SAME\n\n- Everything else. Pairing, playback, updating and the user-agent fix\n  from 0.1.3 are unchanged.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.4"
 }
