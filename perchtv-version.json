@@ -1,8 +1,8 @@
 {
-  "versionCode": 1006,
-  "versionName": "0.1.6",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.6/PerchTV-v0.1.6.apk",
-  "apkSha256": "87473ada4cddc2e19ffca9bce8f186ca840177d4cef5e43a738e13cabf871314",
-  "changelog": "# PerchTV 0.1.6\n\nThe television now knocks on the provider's door the way the phone does.\n\n## WHAT CHANGED\n\n- Your M provider refused every stream the television asked for (the server answered 401) while the phone played the same channels without issue. From your two screens: same channel, same details, same home network, seconds apart \u2014 the one difference left was the name each app introduces itself with. The television now introduces itself with the agent the phone uses, the one this provider is measured to accept. If M-provider channels play now, that name was the gate.\n- The television now waits on slow providers as patiently as the phone already did: 45 seconds for a stream to start answering, instead of the 10-second library default that could report \"the server did not answer in time\" about a stream that was coming.\n\n## WHAT TO WATCH\n\n- If an M-provider channel still refuses while nothing else is playing, the account's connection limit is the next suspect: these plans allow a fixed number of simultaneous streams, and a panel can hold a finished one for minutes. Close every other stream on the account and try once more.\n\n## WHAT STAYS THE SAME\n\n- Everything else. The 0.1.3, 0.1.4 and 0.1.5 fixes carry forward untouched.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.6"
+  "versionCode": 1007,
+  "versionName": "0.1.7",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.7/PerchTV-v0.1.7.apk",
+  "apkSha256": "a7143f57edc9147cb3a26dc20dfdd1481342abc5ec1721cee2f92343772069d8",
+  "changelog": "# PerchTV 0.1.7\n\nEvery start now checks for a new version.\n\n## WHAT CHANGED\n\n- The television checked for updates at most once every 12 hours, and a check you never saw still counted \u2014 so restarting, force closing and clearing the cache could not make a prompt appear. Now every start checks, always. The 12-hour quiet period only limits repeat checks while the app stays open, which is where it belongs.\n\n## WHAT STAYS THE SAME\n\n- Everything else, including 0.1.6's provider knock and patience.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.7"
 }
