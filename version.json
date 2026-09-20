@@ -1,8 +1,8 @@
 {
-  "versionCode": 30,
-  "versionName": "0.3.3.16",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.3.16/MobileIPTV-v0.3.3.16.apk",
-  "apkSha256": "a3e9ee37e82f79840b0895cdc91a6ef2c87de94dfae1c182c3f2f7da4062b63c",
-  "changelog": "The phone's second opinion no longer condemns films it can play itself.\n\nWHAT CHANGED\n\n- When a cast fails, the phone re-checks the channel itself and tells you\n  what it learned. That check knew the live-stream formats but not the\n  containers films and episodes usually arrive in \u2014 so for a Matroska\n  payload it said \"the channel itself is the problem\" while the phone\n  could play it without issue. It now recognises Matroska/WebM and AVI,\n  and its verdict can be trusted for films and series too.\n\nWHAT STAYS THE SAME\n\n- Everything else. The check still asks the provider the same question\n  the television asked, with the same details, and still errs toward\n  \"cannot tell\" rather than blaming a channel on too little evidence.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.3.16"
+  "versionCode": 31,
+  "versionName": "0.3.3.17",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.3.17/MobileIPTV-v0.3.3.17.apk",
+  "apkSha256": "a4eae388b5d86e46a172345be4006dcce6e081fc2e69e5c4e9fd259bd7c86351",
+  "changelog": "Every start now checks for a new version.\n\nWHAT CHANGED\n\n- The 12-hour rate limit governed the launch check too, so a fresh\n  version could wait half a day to be noticed. Now every start checks,\n  always; the 12 hours only limit repeat checks while the app stays\n  open. The manual check on the About screen is unchanged.\n\nWHAT STAYS THE SAME\n\n- Everything else, including the 0.3.3.16 second-opinion fix.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.3.17"
 }
