@@ -1,8 +1,8 @@
 {
-  "versionCode": 29,
-  "versionName": "0.3.3.15",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.3.15/MobileIPTV-v0.3.3.15.apk",
-  "apkSha256": "193f0cbe4d918d2e831dd5d3e389cd47ba07807a6958202daea0b11ae1327420",
-  "changelog": "When a stream fails on the television, this phone now finds out why.\n\nWHAT CHANGED\n\n- If the television reports a failed stream, the phone quietly tries the\n  same channel itself, with the same details, and then tells you what it\n  learned: whether the channel plays on the phone (so the stream is\n  alive and the problem is between the provider and the television), or\n  whether it fails here too (so the channel itself is the problem).\n- The television's own report is shown alongside, in its own words:\n  what the server answered, or that it did not answer at all.\n\nWHAT STAYS THE SAME\n\n- Everything else. Sending, pairing and playback are unchanged; you\n  only see anything new when a cast actually fails.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.3.15"
+  "versionCode": 30,
+  "versionName": "0.3.3.16",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.3.16/MobileIPTV-v0.3.3.16.apk",
+  "apkSha256": "a3e9ee37e82f79840b0895cdc91a6ef2c87de94dfae1c182c3f2f7da4062b63c",
+  "changelog": "The phone's second opinion no longer condemns films it can play itself.\n\nWHAT CHANGED\n\n- When a cast fails, the phone re-checks the channel itself and tells you\n  what it learned. That check knew the live-stream formats but not the\n  containers films and episodes usually arrive in \u2014 so for a Matroska\n  payload it said \"the channel itself is the problem\" while the phone\n  could play it without issue. It now recognises Matroska/WebM and AVI,\n  and its verdict can be trusted for films and series too.\n\nWHAT STAYS THE SAME\n\n- Everything else. The check still asks the provider the same question\n  the television asked, with the same details, and still errs toward\n  \"cannot tell\" rather than blaming a channel on too little evidence.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.3.16"
 }
