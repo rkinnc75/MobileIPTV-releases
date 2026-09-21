@@ -1,8 +1,8 @@
 {
-  "versionCode": 1007,
-  "versionName": "0.1.7",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.7/PerchTV-v0.1.7.apk",
-  "apkSha256": "a7143f57edc9147cb3a26dc20dfdd1481342abc5ec1721cee2f92343772069d8",
-  "changelog": "# PerchTV 0.1.7\n\nEvery start now checks for a new version.\n\n## WHAT CHANGED\n\n- The television checked for updates at most once every 12 hours, and a check you never saw still counted \u2014 so restarting, force closing and clearing the cache could not make a prompt appear. Now every start checks, always. The 12-hour quiet period only limits repeat checks while the app stays open, which is where it belongs.\n\n## WHAT STAYS THE SAME\n\n- Everything else, including 0.1.6's provider knock and patience.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.7"
+  "versionCode": 1008,
+  "versionName": "0.1.8",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.8/PerchTV-v0.1.8.apk",
+  "apkSha256": "8d1723e4bfd813390efde7d0d326201cb4f839c38b0ff3b367fad0b3a5c97471",
+  "changelog": "# PerchTV 0.1.8\n\nFilms and episodes now skip, and the television keeps listening after the screensaver.\n\n## WHAT CHANGED\n\n- Skip on the remote: left (or \u23ea) goes back 10 seconds, right (or \u23e9) forward 30. Hold the key to keep going. A thin bar shows where you are and fades away on its own. Films and episodes only; live channels are unchanged.\n- Fixed: after the screensaver, the Home button or switching inputs, the television said Paired but ignored everything the phone sent until the app was restarted. It now picks up where it left off.\n\n## WHAT STAYS THE SAME\n\n- Pairing, casting from the phone, play/pause and stop, and 0.1.7's update check on every start.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.8"
 }
