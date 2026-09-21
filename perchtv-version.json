@@ -1,8 +1,8 @@
 {
-  "versionCode": 1008,
-  "versionName": "0.1.8",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.8/PerchTV-v0.1.8.apk",
-  "apkSha256": "8d1723e4bfd813390efde7d0d326201cb4f839c38b0ff3b367fad0b3a5c97471",
-  "changelog": "# PerchTV 0.1.8\n\nFilms and episodes now skip, and the television keeps listening after the screensaver.\n\n## WHAT CHANGED\n\n- Skip on the remote: left (or \u23ea) goes back 10 seconds, right (or \u23e9) forward 30. Hold the key to keep going. A thin bar shows where you are and fades away on its own. Films and episodes only; live channels are unchanged.\n- Fixed: after the screensaver, the Home button or switching inputs, the television said Paired but ignored everything the phone sent until the app was restarted. It now picks up where it left off.\n\n## WHAT STAYS THE SAME\n\n- Pairing, casting from the phone, play/pause and stop, and 0.1.7's update check on every start.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.8"
+  "versionCode": 1009,
+  "versionName": "0.1.9",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.9/PerchTV-v0.1.9.apk",
+  "apkSha256": "e0aa3b6469dafbd29d4ca9e16a03cdf7b1b9528ccaa3a0ef9bcf22b7da012cbc",
+  "changelog": "# PerchTV 0.1.9\n\nHolding a skip key now moves much faster, and the waiting screen looks after the panel.\n\n## WHAT CHANGED\n\n- Hold left (or \u23ea) or right (or \u23e9) to move 5 minutes a second, in either direction. A tap is still 10 seconds back or 30 forward. Films and episodes only; live channels are unchanged.\n- While paired and nothing is playing, the waiting screen moves to a new place every 5 minutes and fades to black after 30, so a panel left on all evening does not burn in. From there the television's own sleep takes over. Any remote key, or casting something, brings it straight back.\n- The pairing-code screen stays put and never goes black, so the code can always be read.\n\n## WHAT STAYS THE SAME\n\n- Pairing, casting from the phone, play/pause and stop, the 0.1.8 screensaver fix, and the update check on every start.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.9"
 }
