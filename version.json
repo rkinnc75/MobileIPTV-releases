@@ -1,8 +1,8 @@
 {
-  "versionCode": 31,
-  "versionName": "0.3.3.17",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.3.17/MobileIPTV-v0.3.3.17.apk",
-  "apkSha256": "a4eae388b5d86e46a172345be4006dcce6e081fc2e69e5c4e9fd259bd7c86351",
-  "changelog": "Every start now checks for a new version.\n\nWHAT CHANGED\n\n- The 12-hour rate limit governed the launch check too, so a fresh\n  version could wait half a day to be noticed. Now every start checks,\n  always; the 12 hours only limit repeat checks while the app stays\n  open. The manual check on the About screen is unchanged.\n\nWHAT STAYS THE SAME\n\n- Everything else, including the 0.3.3.16 second-opinion fix.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.3.17"
+  "versionCode": 32,
+  "versionName": "0.3.3.18",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.3.18/MobileIPTV-v0.3.3.18.apk",
+  "apkSha256": "b527e8aa57dcb27b840c081cf2a7072d8446955c49728609bc1b5cbf1cfd5e9c",
+  "changelog": "Pairing with a television accepts nine-digit codes only.\n\nWHAT CHANGED\n\n- The pairing scanner and the typed-in code accepted six digits as\n  well as nine, for televisions that had not updated yet. Every code\n  has been nine digits for days, so a six-digit one could only be old\n  or mistyped; it is now refused on the phone instead of by the server.\n\nWHAT STAYS THE SAME\n\n- Everything else, including 0.3.3.17's update check on every start.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.3.18"
 }
