@@ -1,8 +1,8 @@
 {
-  "versionCode": 32,
-  "versionName": "0.3.3.18",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.3.18/MobileIPTV-v0.3.3.18.apk",
-  "apkSha256": "b527e8aa57dcb27b840c081cf2a7072d8446955c49728609bc1b5cbf1cfd5e9c",
-  "changelog": "Pairing with a television accepts nine-digit codes only.\n\nWHAT CHANGED\n\n- The pairing scanner and the typed-in code accepted six digits as\n  well as nine, for televisions that had not updated yet. Every code\n  has been nine digits for days, so a six-digit one could only be old\n  or mistyped; it is now refused on the phone instead of by the server.\n\nWHAT STAYS THE SAME\n\n- Everything else, including 0.3.3.17's update check on every start.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.3.18"
+  "versionCode": 33,
+  "versionName": "0.3.4",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.4/MobileIPTV-v0.3.4.apk",
+  "apkSha256": "2ea976c8db67621499f2fb1b9c11ce005d39d679d9423fdebe3a72b394749678",
+  "changelog": "A dropped stream comes back, every time \u2014 and a phone call or a turn of the phone no longer breaks it.\n\nWHAT CHANGED\n\n- Recovery no longer gives up after the first drop of a session. It\n  now waits a little longer between each retry (1, 2, 4, 8, then 16\n  seconds), so a provider that is down for a few seconds is ridden out\n  instead of exhausting every attempt at once.\n- Switching between Wi-Fi and mobile data reconnects the stream straight\n  away, instead of sitting on a frozen picture for about 15 seconds.\n- A phone call no longer looks like a frozen stream, so the player\n  stops trying to reconnect while you are talking.\n- Turning the phone while a channel is starting no longer makes that\n  first stream buffer badly. Turning it while a channel plays never\n  restarts it.\n- A live channel that has fallen 15 seconds or more behind now shows a\n  LIVE button that takes you straight back to now.\n\nWHAT STAYS THE SAME\n\n- Everything else, including 0.3.3.18's nine-digit TV pairing and the\n  update check on every start.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.4"
 }
