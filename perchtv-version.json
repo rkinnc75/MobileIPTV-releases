@@ -1,8 +1,8 @@
 {
-  "versionCode": 1009,
-  "versionName": "0.1.9",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.9/PerchTV-v0.1.9.apk",
-  "apkSha256": "e0aa3b6469dafbd29d4ca9e16a03cdf7b1b9528ccaa3a0ef9bcf22b7da012cbc",
-  "changelog": "# PerchTV 0.1.9\n\nHolding a skip key now moves much faster, and the waiting screen looks after the panel.\n\n## WHAT CHANGED\n\n- Hold left (or \u23ea) or right (or \u23e9) to move 5 minutes a second, in either direction. A tap is still 10 seconds back or 30 forward. Films and episodes only; live channels are unchanged.\n- While paired and nothing is playing, the waiting screen moves to a new place every 5 minutes and fades to black after 30, so a panel left on all evening does not burn in. From there the television's own sleep takes over. Any remote key, or casting something, brings it straight back.\n- The pairing-code screen stays put and never goes black, so the code can always be read.\n\n## WHAT STAYS THE SAME\n\n- Pairing, casting from the phone, play/pause and stop, the 0.1.8 screensaver fix, and the update check on every start.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.9"
+  "versionCode": 1010,
+  "versionName": "0.1.10",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.10/PerchTV-v0.1.10.apk",
+  "apkSha256": "287b73bd74a77b8b6e54298cf0276caf92515de4c1b8e873b259242a943bc1b7",
+  "changelog": "# PerchTV 0.1.10\n\nThe television no longer goes deaf when the connection is closed from the other end.\n\n## WHAT CHANGED\n\n- Fixed: when the pairing service closed the television's connection \u2014 for example when another connection took over \u2014 the television never noticed. It sat on \"Waiting\" and ignored the phone until the app was restarted. It now reconnects on its own.\n- Fixed: a late message from an old connection could interfere with the new one. Old connections are now ignored.\n\n## WHAT STAYS THE SAME\n\n- Pairing, casting, play/pause and stop, the skip keys (10 s back, 30 s forward, hold for 5 minutes a second), the waiting screen that moves and goes dark, and the update check on every start.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.10"
 }
