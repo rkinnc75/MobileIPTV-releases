@@ -1,8 +1,8 @@
 {
-  "versionCode": 34,
-  "versionName": "0.3.4.1",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.4.1/MobileIPTV-v0.3.4.1.apk",
-  "apkSha256": "d60d2c839a74feec6b7a1f73c4d0798f1bfbcbe852cc9b89959e7207e18766f4",
-  "changelog": "Sending to a television notices when the television has ended it.\n\nWHAT CHANGED\n\n- If a television unpairs itself, or the pairing server closes the\n  phone's connection, the phone now notices straight away. Before, it\n  could go on showing \"Send to\" your television while nothing it sent\n  arrived; now it goes back to offering to pair, or reconnects if the\n  pairing is still good.\n\nWHAT STAYS THE SAME\n\n- Everything else, including 0.3.4's recovery from dropped streams and\n  the LIVE button.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.4.1"
+  "versionCode": 35,
+  "versionName": "0.3.4.2",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.4.2/MobileIPTV-v0.3.4.2.apk",
+  "apkSha256": "ce6dab0c20b7fd665f39094c77f1832154ad457660b99ed95e1eab0c047d934b",
+  "changelog": "A maintenance build. The app works exactly as 0.3.4.1 did.\n\nWHAT CHANGED\n\n- Nothing you will notice. This build carries project housekeeping\n  only: the app is now registered under Android's developer\n  verification, and the release records were brought up to date.\n\nWHAT STAYS THE SAME\n\n- Everything, including 0.3.4.1's handling of a television that ends\n  its pairing, 0.3.4's recovery from dropped streams, and the LIVE\n  button.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.4.2"
 }
