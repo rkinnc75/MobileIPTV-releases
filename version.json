@@ -1,8 +1,8 @@
 {
-  "versionCode": 36,
-  "versionName": "0.3.4.3",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.4.3/MobileIPTV-v0.3.4.3.apk",
-  "apkSha256": "dcc64bfaf9c8f7b968256caf4d041057377fe7ce7190e47a5cef15e5fcf836b7",
-  "changelog": "You can now stop the television from your phone.\n\nWHAT CHANGED\n\n- Stop on your television. While something you sent is playing on your\n  paired PerchTV television, press and hold any channel or film and\n  choose \"Stop on\" and your television's name. The television stops and\n  says the phone stopped it. The option appears only while the\n  television is actually playing, and it still appears after the app\n  has been closed and reopened.\n\nWHAT STAYS THE SAME\n\n- Everything else, including sending to the television, the LIVE\n  button, and recovery from dropped streams.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.4.3"
+  "versionCode": 37,
+  "versionName": "0.3.4.4",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.4.4/MobileIPTV-v0.3.4.4.apk",
+  "apkSha256": "742661359e62a54f0ad1dc2e0af530498d1db4a85c548efec381d8724c144ef8",
+  "changelog": "Stop on your television now appears whenever it should.\n\nWHAT CHANGED\n\n- When the app reconnects to your paired PerchTV television, for\n  example after the phone wakes up or the app is reopened, it now asks\n  the television what it is doing. So \"Stop on\" your television appears\n  as soon as the television is playing something, and disappears when\n  it stops, without waiting for anything to change on the television.\n\nWHAT STAYS THE SAME\n\n- Everything else, including sending to the television, stopping from\n  the phone, the LIVE button, and recovery from dropped streams.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.4.4"
 }
