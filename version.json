@@ -1,8 +1,8 @@
 {
-  "versionCode": 37,
-  "versionName": "0.3.4.4",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.4.4/MobileIPTV-v0.3.4.4.apk",
-  "apkSha256": "742661359e62a54f0ad1dc2e0af530498d1db4a85c548efec381d8724c144ef8",
-  "changelog": "Stop on your television now appears whenever it should.\n\nWHAT CHANGED\n\n- When the app reconnects to your paired PerchTV television, for\n  example after the phone wakes up or the app is reopened, it now asks\n  the television what it is doing. So \"Stop on\" your television appears\n  as soon as the television is playing something, and disappears when\n  it stops, without waiting for anything to change on the television.\n\nWHAT STAYS THE SAME\n\n- Everything else, including sending to the television, stopping from\n  the phone, the LIVE button, and recovery from dropped streams.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.4.4"
+  "versionCode": 38,
+  "versionName": "0.3.4.5",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.3.4.5/MobileIPTV-v0.3.4.5.apk",
+  "apkSha256": "11f0930445f3eaea42ff6bb61225341d18ba572d748d5d910a0164d9e0727f51",
+  "changelog": "Sending to your television works right after you come back to the app.\n\nWHAT CHANGED\n\n- If the app had been in the background, its connection to your\n  PerchTV television could be down when you came back, and the first\n  Send or Stop you pressed was lost without a word. Now the app\n  reconnects as soon as you open it, and a Send or Stop pressed while\n  it is still reconnecting waits and goes through when it is back. If\n  the television cannot be reached within 15 seconds, the app says so\n  and asks you to send it again.\n\nWHAT STAYS THE SAME\n\n- Everything else, including pairing, Stop on your television, the\n  LIVE button, and recovery from dropped streams.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.3.4.5"
 }
