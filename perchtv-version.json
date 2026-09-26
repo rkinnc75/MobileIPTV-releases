@@ -1,8 +1,8 @@
 {
-  "versionCode": 1012,
-  "versionName": "0.1.12",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.12/PerchTV-v0.1.12.apk",
-  "apkSha256": "01a27db981c2a21b5407d84671ed1b37e2a387fcad49564aff083198d9256c76",
-  "changelog": "# PerchTV 0.1.12\n\nNothing changes on this television. This version carries the same number as PerchTV on Samsung televisions, which changed.\n\n## WHAT CHANGED\n\n- Nothing on this television. PerchTV's television apps share one version number, so a change on one kind of television moves the number on all of them. This release changes the Samsung app only: its \"Paused\" message now shows, and holding a skip key moves at the full two minutes a second.\n\n## WHAT STAYS THE SAME\n\n- Everything, including pairing, casting, play/pause and stop, the skip keys (10 s back, 30 s forward, hold for two minutes a second), the connection check every 45 seconds, and the update check on every start.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.12"
+  "versionCode": 1013,
+  "versionName": "0.1.13",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.13/PerchTV-v0.1.13.apk",
+  "apkSha256": "7bdaa64b875e2459d2ea9f42e4700896860cdeb26f2bb35c35d1f58276d397a3",
+  "changelog": "# PerchTV 0.1.13\n\nNothing changes on this television. This version carries the same number as PerchTV on Samsung televisions, which changed.\n\n## WHAT CHANGED\n\n- Nothing on this television. PerchTV's television apps share one version number, so a change on one kind of television moves the number on all of them. This release changes the Samsung app only, under the hood: a jump that takes that television more than 5 seconds is no longer treated as a failure, and holding a skip key there works as it did in 0.1.12.\n\n## WHAT STAYS THE SAME\n\n- Everything, including pairing, casting, play/pause and stop, the skip keys (10 s back, 30 s forward, hold for two minutes a second), the connection check every 45 seconds, and the update check on every start.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.13"
 }
