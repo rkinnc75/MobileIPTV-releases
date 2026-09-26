@@ -1,8 +1,8 @@
 {
-  "versionCode": 1013,
-  "versionName": "0.1.13",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.13/PerchTV-v0.1.13.apk",
-  "apkSha256": "7bdaa64b875e2459d2ea9f42e4700896860cdeb26f2bb35c35d1f58276d397a3",
-  "changelog": "# PerchTV 0.1.13\n\nNothing changes on this television. This version carries the same number as PerchTV on Samsung televisions, which changed.\n\n## WHAT CHANGED\n\n- Nothing on this television. PerchTV's television apps share one version number, so a change on one kind of television moves the number on all of them. This release changes the Samsung app only, under the hood: a jump that takes that television more than 5 seconds is no longer treated as a failure, and holding a skip key there works as it did in 0.1.12.\n\n## WHAT STAYS THE SAME\n\n- Everything, including pairing, casting, play/pause and stop, the skip keys (10 s back, 30 s forward, hold for two minutes a second), the connection check every 45 seconds, and the update check on every start.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.13"
+  "versionCode": 1014,
+  "versionName": "0.1.14",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.14/PerchTV-v0.1.14.apk",
+  "apkSha256": "e5decf12b0cd2a22888218b71b98694681ac2f3bfa9e3833f6e933a825af07c4",
+  "changelog": "# PerchTV 0.1.14\n\nNothing changes on this television. This version carries the same number as PerchTV on Samsung televisions, which changed.\n\n## WHAT CHANGED\n\n- Nothing on this television. PerchTV's television apps share one version number, so a change on one kind of television moves the number on all of them. This release changes the Samsung app only: holding the fast-forward or rewind key there now moves the picture at 8 times normal speed, forward or back, and stops the moment you let go. The left and right keys keep their skips.\n\n## WHAT STAYS THE SAME\n\n- Everything, including pairing, casting, play/pause and stop, the skip keys (10 s back, 30 s forward, hold for two minutes a second), the connection check every 45 seconds, and the update check on every start.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.14"
 }
