@@ -1,8 +1,8 @@
 {
-  "versionCode": 1015,
-  "versionName": "0.1.15",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.15/PerchTV-v0.1.15.apk",
-  "apkSha256": "93a8569ba81934c8558d4cd69ade891cbdc0559e6752e680646280d6dea12858",
-  "changelog": "# PerchTV 0.1.15\n\nNothing changes on this television. This version carries the same number as PerchTV on Samsung televisions, which changed.\n\n## WHAT CHANGED\n\n- Nothing on this television. PerchTV's television apps share one version number, so a change on one kind of television moves the number on all of them. This release changes the Samsung app only: holding the up key there now moves the picture forward at 8 times normal speed, holding the down key moves it back, and it stops the moment you let go. The Samsung remote has no fast-forward and rewind keys, so those are back to being skip keys for any remote that does.\n\n## WHAT STAYS THE SAME\n\n- Everything, including pairing, casting, play/pause and stop, the skip keys (10 s back, 30 s forward, hold for two minutes a second), the connection check every 45 seconds, and the update check on every start.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.15"
+  "versionCode": 1016,
+  "versionName": "0.1.16",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.16/PerchTV-v0.1.16.apk",
+  "apkSha256": "4e7f7ed342c7ab0ea82da8546c9efe6a33ced3908992e918e1aaee5fea2bd803",
+  "changelog": "# PerchTV 0.1.16\n\nNothing changes on this television. This version carries the same number as PerchTV on Samsung televisions, which changed.\n\n## WHAT CHANGED\n\n- Nothing on this television. PerchTV's television apps share one version number, so a change on one kind of television moves the number on all of them. This release changes the Samsung app only: when you send something to it, it now says Loading and the name of what is starting until the picture appears; holding the up key scans forward and no longer gets stuck at high speed on a long hold, it stops where it is when you let go, and a quick tap does nothing. The down key no longer scans back, because the set did not always do it; hold the left key to go back instead.\n\n## WHAT STAYS THE SAME\n\n- Everything, including pairing, casting, play/pause and stop, the skip keys (10 s back, 30 s forward, hold for two minutes a second), the connection check every 45 seconds, and the update check on every start.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.16"
 }
