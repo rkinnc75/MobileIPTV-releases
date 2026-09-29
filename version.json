@@ -1,8 +1,8 @@
 {
-  "versionCode": 46,
-  "versionName": "0.4.8",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.4.8/MobileIPTV-v0.4.8.apk",
-  "apkSha256": "107244e6096de57ed9d641d32df2e3b8a767d1f9c0f134da511c67d13206ca55",
-  "changelog": "Safe mode, and a playlist setting that finally does what it says.\n\nWHAT CHANGED\n\n- Settings, Content has Safe mode. When it is on, channels, films and series marked adult are hidden from browsing, search and the More like this row, and categories with adult names are hidden from the category list. It is off unless you turn it on, and switching it never needs a refresh.\n- Plex titles are now checked for adult content by their title and library name, as panels and playlists already were.\n- Select all in the category list never switches on a category that safe mode is hiding.\n- For a playlist source, turning off Hide section headers when editing it now keeps those header lines as rows after the next refresh. Before, they were always removed.\n\nWHAT STAYS THE SAME\n\n- Your language filter and category choices work as before.\n\nNOT YET\n\n- Safe mode can be a little slower on very large catalogs until it gets its own index.\n- A refresh still works out each channel's language again rather than keeping it.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.4.8"
+  "versionCode": 47,
+  "versionName": "0.4.9",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.4.9/MobileIPTV-v0.4.9.apk",
+  "apkSha256": "a88b76b1ec39011fc2a37a9edecf707fa8652b3552d38dd67278f152eb0c1e53",
+  "changelog": "Groundwork for faster, more reliable channel starts, and a tidier Settings screen.\n\nWHAT CHANGED\n\n- The app now records how long each channel takes from your tap to the first picture, and the figure is in the log you can send with a problem report.\n- The Pre-load highlighted channel switch is gone from Settings. It never did anything on a phone.\n- Behind the scenes, the database and the player are now tested on an Android emulator every time they change, not just built.\n\nWHAT STAYS THE SAME\n\n- How channels play. The change that picks the right way to play a stream from what the provider actually sends is built, but it stays switched off until it has been tested on real streams on a phone.\n\nNOT YET\n\n- Channels whose provider sends a different format than the link suggests may still spin instead of playing.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.4.9"
 }
