@@ -1,8 +1,8 @@
 {
-  "versionCode": 49,
-  "versionName": "0.5.1",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.5.1/MobileIPTV-v0.5.1.apk",
-  "apkSha256": "5a011fb259125aa73df0914ab0fbb12cbdbb2cdc0a3f1e40b55e1b081bc461b8",
-  "changelog": "More control when a channel misbehaves, and decoding fixes that now carry over correctly between versions.\n\nWHAT CHANGED\n\n- Settings, Playback has a Hardware decoding switch. Turning it off decodes every channel in software, which can fix a green or garbled picture on some channels at the cost of more battery.\n- When a channel has failed with the phone's video hardware, the app remembers to use software for it. That memory now resets properly when you install a new version, so each new version gets a fresh chance to play those channels in hardware.\n- Settings, Playback has five reconnect settings: how long to wait for a picture, how long to allow buffering before reconnecting, how long a stream must play smoothly before its retry count resets, how long to ignore start-up hiccups, and how many times to reconnect before stopping.\n- The defaults are the values the app already used, so nothing changes unless you change them.\n\nWHAT STAYS THE SAME\n\n- How the app plays channels you have not changed any settings for.\n\nNOT YET\n\n- A second player the app switches to by itself when the first one cannot play a channel.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.5.1"
+  "versionCode": 50,
+  "versionName": "0.5.2",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.5.2/MobileIPTV-v0.5.2.apk",
+  "apkSha256": "1707614de6dc211f615f422b51cf3182b0c684fb4278a2ca7379ec536aa93105",
+  "changelog": "Guide discovery that gives up on time, and gentler checks against your provider.\n\nWHAT CHANGED\n\n- When the app looks for your provider's guide address, it now stops within about 18 seconds even if the provider's server never answers. Before, one silent server could hold that search for much longer.\n- A provider whose guide file is very small, such as an empty guide, is now found. Before, it was wrongly treated as having no guide.\n- If the search finds nothing, the guide address you already had is kept.\n- Checking which channels work still spaces its requests apart and never runs more at once than your provider allows. That rule is now shared, so any future per-channel check follows it too.\n\nWHAT STAYS THE SAME\n\n- Search, browsing and the guide look and behave as before.\n\nNOT YET\n\n- Searching programme titles in the guide. It was considered and set aside for now.\n- Faster search on very large catalogs, which waits on measurements taken on a phone.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.5.2"
 }
