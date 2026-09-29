@@ -1,8 +1,8 @@
 {
-  "versionCode": 45,
-  "versionName": "0.4.7",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.4.7/MobileIPTV-v0.4.7.apk",
-  "apkSha256": "cfbe9f2577f8ed10e7238f84f52ebe579e11799585a4996765bebae756517e65",
-  "changelog": "Sort each source's channels the way you want, and find out why a category you switched on is not showing.\n\nWHAT CHANGED\n\n- The sort order you choose when editing a source, alphabetical, provider order or by category, now changes the lists. Before, the choice was saved and never used.\n- With several sources sorted differently, the list keeps each source in its own order and takes from them in turn, so one source no longer fills the list before the next begins.\n- Scrolling back up a long list shows exactly the rows you scrolled past.\n- The More like this row on a title's page follows its source's sort order too.\n- More has a new Visibility diagnostics page. For each source and each of Live, Movies and Series, it shows how many categories are on and how many channels are showing. If those do not agree, or channels point at a category that no longer exists, it says so and how to repair it.\n\nWHAT STAYS THE SAME\n\n- Live, Movies and Series stay in the bottom bar. There is no combined All list.\n\nNOT YET\n\n- Episode lists do not yet follow your language filter.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.4.7"
+  "versionCode": 46,
+  "versionName": "0.4.8",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.4.8/MobileIPTV-v0.4.8.apk",
+  "apkSha256": "107244e6096de57ed9d641d32df2e3b8a767d1f9c0f134da511c67d13206ca55",
+  "changelog": "Safe mode, and a playlist setting that finally does what it says.\n\nWHAT CHANGED\n\n- Settings, Content has Safe mode. When it is on, channels, films and series marked adult are hidden from browsing, search and the More like this row, and categories with adult names are hidden from the category list. It is off unless you turn it on, and switching it never needs a refresh.\n- Plex titles are now checked for adult content by their title and library name, as panels and playlists already were.\n- Select all in the category list never switches on a category that safe mode is hiding.\n- For a playlist source, turning off Hide section headers when editing it now keeps those header lines as rows after the next refresh. Before, they were always removed.\n\nWHAT STAYS THE SAME\n\n- Your language filter and category choices work as before.\n\nNOT YET\n\n- Safe mode can be a little slower on very large catalogs until it gets its own index.\n- A refresh still works out each channel's language again rather than keeping it.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.4.8"
 }
