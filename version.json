@@ -1,8 +1,8 @@
 {
-  "versionCode": 48,
-  "versionName": "0.5.0",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.5.0/MobileIPTV-v0.5.0.apk",
-  "apkSha256": "b817c0abdf308bae4bf57531fe322af23aec752552d59b8681c359399fb85fe2",
-  "changelog": "Choose how much the player buffers, and reset or tune your settings in one tap.\n\nWHAT CHANGED\n\n- Settings, Playback has a new Buffering choice: Low latency, Balanced or Stable connection. Balanced is how the app has always played. Stable connection waits a few seconds longer before starting and drops less on a shaky connection. Low latency starts sooner.\n- Your buffering choice stays in force for the whole time a channel plays, including when the player has to switch decoders.\n- Settings, Backup and Restore has Reset to defaults, which returns every setting to its default but keeps your sources, their passwords and your metadata key.\n- It also has Optimise for this device, which sets the player up to suit your phone, with a smaller buffer on phones with less memory.\n- Both ask you to confirm first.\n\nWHAT STAYS THE SAME\n\n- If you never change the buffering setting, playback is exactly as before.\n\nNOT YET\n\n- The app does not yet raise the buffer by itself after a stream stalls several times.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.5.0"
+  "versionCode": 49,
+  "versionName": "0.5.1",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.5.1/MobileIPTV-v0.5.1.apk",
+  "apkSha256": "5a011fb259125aa73df0914ab0fbb12cbdbb2cdc0a3f1e40b55e1b081bc461b8",
+  "changelog": "More control when a channel misbehaves, and decoding fixes that now carry over correctly between versions.\n\nWHAT CHANGED\n\n- Settings, Playback has a Hardware decoding switch. Turning it off decodes every channel in software, which can fix a green or garbled picture on some channels at the cost of more battery.\n- When a channel has failed with the phone's video hardware, the app remembers to use software for it. That memory now resets properly when you install a new version, so each new version gets a fresh chance to play those channels in hardware.\n- Settings, Playback has five reconnect settings: how long to wait for a picture, how long to allow buffering before reconnecting, how long a stream must play smoothly before its retry count resets, how long to ignore start-up hiccups, and how many times to reconnect before stopping.\n- The defaults are the values the app already used, so nothing changes unless you change them.\n\nWHAT STAYS THE SAME\n\n- How the app plays channels you have not changed any settings for.\n\nNOT YET\n\n- A second player the app switches to by itself when the first one cannot play a channel.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.5.1"
 }
