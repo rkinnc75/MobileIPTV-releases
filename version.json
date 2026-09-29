@@ -1,8 +1,8 @@
 {
-  "versionCode": 42,
-  "versionName": "0.4.4",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.4.4/MobileIPTV-v0.4.4.apk",
-  "apkSha256": "47d7bd1241c67ece6ab9be9adf1800bc76828c2648e14fa64884932ba9063db9",
-  "changelog": "You can save a backup of your setup, and send the app's log with one tap from More.\n\nWHAT CHANGED\n\n- Settings has a new Backup & Restore section. Export a backup saves your settings, your sources and your category choices to a file you choose, as a zip you can open on a computer.\n- Passwords are left out of a backup unless you turn on Include passwords, which warns you first. Without it, provider logins and any login inside a link are removed.\n- If saving a backup fails or is cancelled, no half-written file is left behind.\n- More has a new Send log and backup option. It hands the app's log and a backup, named with the same date and time, to any app you choose, such as email or Drive.\n\nWHAT STAYS THE SAME\n\n- Everything else. The log still has your provider's details removed.\n\nNOT YET\n\n- Favourites and watch history are not in backups yet, and restoring a backup is still to come.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.4.4"
+  "versionCode": 43,
+  "versionName": "0.4.5",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.4.5/MobileIPTV-v0.4.5.apk",
+  "apkSha256": "3c174ac05541c8ffbe31d2d20bf78ec61786cf6afc108e348d38895a007e4b1f",
+  "changelog": "Restore your setup on a new phone from a backup, starting on the very first screen.\n\nWHAT CHANGED\n\n- Settings, Backup & Restore has Restore from a backup. Pick a backup file and the app shows what it will add and what it will replace before anything changes. Then choose everything, sources only, or settings only.\n- The first screen on a new install welcomes you and offers Restore from a backup beside Add a source, so you do not have to add a source you do not want first.\n- A file that is cut short, is not a backup, or was made by a newer version is refused with a clear message, and nothing on the phone is changed.\n- Settings from an older backup that no longer fit are adjusted to the nearest allowed value rather than rejected.\n- A backup without passwords never removes the logins you already have. A panel added from it stays switched off until you enter its password.\n- Category choices for sources whose channels have not arrived yet are remembered and applied automatically after the first refresh.\n- When the restore finishes, it says exactly what it did, including anything still waiting.\n\nWHAT STAYS THE SAME\n\n- Everything else, including exporting a backup and sending the log.\n\nNOT YET\n\n- Favourites and watch history are not in backups yet.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.4.5"
 }
