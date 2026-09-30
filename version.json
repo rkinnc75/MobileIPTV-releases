@@ -1,8 +1,8 @@
 {
-  "versionCode": 50,
-  "versionName": "0.5.2",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.5.2/MobileIPTV-v0.5.2.apk",
-  "apkSha256": "1707614de6dc211f615f422b51cf3182b0c684fb4278a2ca7379ec536aa93105",
-  "changelog": "Guide discovery that gives up on time, and gentler checks against your provider.\n\nWHAT CHANGED\n\n- When the app looks for your provider's guide address, it now stops within about 18 seconds even if the provider's server never answers. Before, one silent server could hold that search for much longer.\n- A provider whose guide file is very small, such as an empty guide, is now found. Before, it was wrongly treated as having no guide.\n- If the search finds nothing, the guide address you already had is kept.\n- Checking which channels work still spaces its requests apart and never runs more at once than your provider allows. That rule is now shared, so any future per-channel check follows it too.\n\nWHAT STAYS THE SAME\n\n- Search, browsing and the guide look and behave as before.\n\nNOT YET\n\n- Searching programme titles in the guide. It was considered and set aside for now.\n- Faster search on very large catalogs, which waits on measurements taken on a phone.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.5.2"
+  "versionCode": 51,
+  "versionName": "0.5.2.1",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.5.2.1/MobileIPTV-v0.5.2.1.apk",
+  "apkSha256": "314882abaf2a9610fa1858eb5311dcf3eac4a9622cf83fef8fd1dc8dcf8c3ce7",
+  "changelog": "Settings, tidied up. Every option now lives in one place.\n\nWHAT CHANGED\n\n- Settings opens as a short list: Appearance, Playback, Television, Content, EPG, Backup & Restore, Diagnostics and App. Tap one to see its options on its own page, and use Back to return to the list.\n- The five reconnect options sit under their own Reconnecting heading on the Playback page.\n- More, then Sources, now lists your sources. Add a new one from the top of the list, tap one to edit it, or turn it off from there. Before, More only opened the form for adding a source, and editing was hidden at the bottom of Settings.\n- Content languages and Send log and backup appear once, in More. They were also in Settings.\n\nWHAT STAYS THE SAME\n\n- Every setting keeps its value; nothing was removed, only moved.\n\nNOT YET\n\n- A fuller visual refresh of the other screens.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.5.2.1"
 }
