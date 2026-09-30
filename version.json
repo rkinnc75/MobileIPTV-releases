@@ -1,8 +1,8 @@
 {
-  "versionCode": 51,
-  "versionName": "0.5.2.1",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.5.2.1/MobileIPTV-v0.5.2.1.apk",
-  "apkSha256": "314882abaf2a9610fa1858eb5311dcf3eac4a9622cf83fef8fd1dc8dcf8c3ce7",
-  "changelog": "Settings, tidied up. Every option now lives in one place.\n\nWHAT CHANGED\n\n- Settings opens as a short list: Appearance, Playback, Television, Content, EPG, Backup & Restore, Diagnostics and App. Tap one to see its options on its own page, and use Back to return to the list.\n- The five reconnect options sit under their own Reconnecting heading on the Playback page.\n- More, then Sources, now lists your sources. Add a new one from the top of the list, tap one to edit it, or turn it off from there. Before, More only opened the form for adding a source, and editing was hidden at the bottom of Settings.\n- Content languages and Send log and backup appear once, in More. They were also in Settings.\n\nWHAT STAYS THE SAME\n\n- Every setting keeps its value; nothing was removed, only moved.\n\nNOT YET\n\n- A fuller visual refresh of the other screens.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.5.2.1"
+  "versionCode": 52,
+  "versionName": "0.5.3.1",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.5.3.1/MobileIPTV-v0.5.3.1.apk",
+  "apkSha256": "0d609ae13085f21ff6606d641638e7dde0af48babf34a14b854914168f2d86bd",
+  "changelog": "Getting ready for Google Play: clearer words about what the app is, and a privacy policy.\n\nWHAT CHANGED\n\n- The welcome screen and the Add source screen now say that MobileIPTV includes no channels or content, and that you are responsible for the sources you add.\n- When you add a source whose address starts with http, the Add source screen tells you the connection is not encrypted, so your username and password are sent in plain text. You can still add it.\n- Settings, App has a Privacy policy link.\n- When every source is turned off, the message now points you to More, then Sources, where they moved in the last update.\n\nWHAT STAYS THE SAME\n\n- Safe mode stays as you set it. In the version for Google Play, Safe mode starts on for new installs.\n\nNOT YET\n\n- The app is not on Google Play yet. This update prepares for a private test there.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.5.3.1"
 }
