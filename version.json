@@ -1,8 +1,8 @@
 {
-  "versionCode": 55,
-  "versionName": "0.5.5.1",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.5.5.1/MobileIPTV-v0.5.5.1.apk",
-  "apkSha256": "ab70086a66d7c8a98a99a000428e3c49d0dfdd1b6d7a1341090816bc7b1ebae8",
-  "changelog": "Continue watching, and a licences page that lists its components again.\n\nWHAT CHANGED\n\n- The Movies and Series tabs start with a Continue watching row: the films and episodes you stopped partway through, most recent first, so you can pick one up without searching for it. One you finish drops off it.\n- Settings, Playback has a new row, Keep in Continue Watching, from 7 to 90 days. A film you have not come back to in that time leaves the row.\n- Settings, App, Open-source licences lists the components the app is built on again. It had shown none since 0.3.4.5: the list was never packed into the app, and the release now refuses to publish without it.\n- Refreshing a source changes only what the provider changed: new channels are added, changed ones updated in place, and the rest left alone, so a favourite or a watched position on an unchanged channel is never touched.\n\nWHAT STAYS THE SAME\n\n- Pause and rewind live TV, the Live TV settings, and everything else from 0.5.5.\n\nNOT YET\n\n- The faster second refresh that the diff makes possible has been measured on a developer's device only; the timing on a phone with a full catalog is still to be recorded.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.5.5.1"
+  "versionCode": 56,
+  "versionName": "0.5.6",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.5.6/MobileIPTV-v0.5.6.apk",
+  "apkSha256": "b923833eae8c506e87e59a4bc196259c6a18bba1628462a063b326b71beaf01d",
+  "changelog": "Live transport controls, checked on a phone.\n\nWHAT CHANGED\n\n- Nothing new to learn: this release completes the live controls that 0.5.5 introduced, now measured on a real phone with a real provider rather than only in tests. Drag the bar back through up to the whole window you have kept, and the readout tells you where you are; turn the phone and you stay there; Back to live lands at now, and checks that it did.\n- Behind the scenes, the app records that it will not cache live video by its web address on these providers, because one of them changes the content behind an address without changing the address. Pause and rewind keeps using its own recording instead, which is immune to that.\n\nWHAT STAYS THE SAME\n\n- Everything from 0.5.5.1: Continue watching, the refresh that changes only what changed, and the licences page.\n\nNOT YET\n\n- Rewinding a channel your provider sends as an HLS playlist. Those still play live only.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.5.6"
 }
