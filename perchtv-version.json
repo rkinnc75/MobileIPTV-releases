@@ -1,8 +1,8 @@
 {
-  "versionCode": 1018,
-  "versionName": "0.1.18",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.18/PerchTV-v0.1.18.apk",
-  "apkSha256": "4900c8891e928d162fac2147356abdd70cb3fd90eb45b0fddfbe92ac1ecb2533",
-  "changelog": "# PerchTV 0.1.18\n\nA stream the television cannot decode now stops at once and says so.\n\n## WHAT CHANGED\n\n- On the Onn: when a channel or film is in a format the television cannot play, the picture ends straight away with the reason on screen, instead of trying again for a while and then failing. The phone is told the same thing.\n- On the Onn: after an update, a channel the television had switched to software decoding is tried in hardware again, because the new build may handle it. Before, that decision carried over for ever.\n- On the Samsung set: no change of its own. Both televisions move to 0.1.18 together, as every release does.\n\n## WHAT STAYS THE SAME\n\n- Pairing, casting, play/pause and stop, the skip keys (10 s back, 30 s forward, hold for two minutes a second), hold \u25b2 for 8x on the Samsung set, the Loading screen with the name of what you sent, the waiting screen that moves and goes dark, the connection check every 45 seconds, and the update check on every start.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.18"
+  "versionCode": 1019,
+  "versionName": "0.1.19",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.19/PerchTV-v0.1.19.apk",
+  "apkSha256": "b7e9ce43985c0a18e82666132c4f506dc69b2a46abc242322530421ee2635fa4",
+  "changelog": "# PerchTV 0.1.19\n\nA stream that drops comes back on its own, on both televisions.\n\n## WHAT CHANGED\n\n- On the Onn: when a channel's connection drops, the television tries again by itself, up to five times with a growing pause between tries, instead of stopping at the first drop. If it still cannot play, it says so, with how many times it tried, and tells the phone. A film that drops comes back where it was. This is what the Samsung set already did.\n- On both televisions: before a retry, the previous attempt is fully stopped first, so the television never holds two connections to your provider at once while it recovers.\n- On the Onn: a stream the television's own decoder cannot play, or a stream the server refuses, is not retried; those still stop at once and say why.\n- On the Samsung set: no change of its own. Both televisions move to 0.1.19 together.\n\n## WHAT STAYS THE SAME\n\n- Pairing, casting, play/pause and stop, the skip keys, hold \u25b2 for 8x on the Samsung set, the Loading screen, the waiting screen that moves and goes dark, the connection check every 45 seconds, and the update check on every start.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.19"
 }
