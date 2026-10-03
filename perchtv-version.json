@@ -1,8 +1,8 @@
 {
-  "versionCode": 1017,
-  "versionName": "0.1.17",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.17/PerchTV-v0.1.17.apk",
-  "apkSha256": "c80722ebda5b6eb1345be96b870af585c7a26b410591ef61523952d5100f1a61",
-  "changelog": "# PerchTV 0.1.17\n\nThe television now says it is loading when you cast to it.\n\n## WHAT CHANGED\n\n- When you send something from your phone, the television shows \"Loading\u2026\" and the name of what you sent until the picture starts. It used to show the waiting screen for up to fifteen seconds, which looked as if nothing had arrived.\n\n## WHAT STAYS THE SAME\n\n- Pairing, casting, play/pause and stop, the skip keys (10 s back, 30 s forward, hold for two minutes a second), the waiting screen that moves and goes dark, the connection check every 45 seconds, and the update check on every start.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.17"
+  "versionCode": 1018,
+  "versionName": "0.1.18",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.18/PerchTV-v0.1.18.apk",
+  "apkSha256": "4900c8891e928d162fac2147356abdd70cb3fd90eb45b0fddfbe92ac1ecb2533",
+  "changelog": "# PerchTV 0.1.18\n\nA stream the television cannot decode now stops at once and says so.\n\n## WHAT CHANGED\n\n- On the Onn: when a channel or film is in a format the television cannot play, the picture ends straight away with the reason on screen, instead of trying again for a while and then failing. The phone is told the same thing.\n- On the Onn: after an update, a channel the television had switched to software decoding is tried in hardware again, because the new build may handle it. Before, that decision carried over for ever.\n- On the Samsung set: no change of its own. Both televisions move to 0.1.18 together, as every release does.\n\n## WHAT STAYS THE SAME\n\n- Pairing, casting, play/pause and stop, the skip keys (10 s back, 30 s forward, hold for two minutes a second), hold \u25b2 for 8x on the Samsung set, the Loading screen with the name of what you sent, the waiting screen that moves and goes dark, the connection check every 45 seconds, and the update check on every start.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.18"
 }
