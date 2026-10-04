@@ -1,8 +1,8 @@
 {
-  "versionCode": 1020,
-  "versionName": "0.1.20",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.20/PerchTV-v0.1.20.apk",
-  "apkSha256": "a5fae9ba366aeaff09684c6606115516826d314cc74d44a2e12e8bd2ebde54c5",
-  "changelog": "# PerchTV 0.1.20\n\nThe phone can ask you a question on the television, without interrupting what you are watching.\n\n## WHAT CHANGED\n\n- On both televisions: when a recording on your phone is about to start on a provider line the television is using, the phone can put a short question on the screen, for example \"US| YES NETWORK HD is scheduled to record, but would interrupt this stream. Do you want to record or continue watching?\" The picture keeps playing under it. Left and right move between the choices, OK picks the highlighted one, Back keeps what you are watching. If nobody answers within a minute the card goes away by itself and the recording is the one that gives way.\n- On both televisions: the highlighted choice starts on \"Keep watching\", so pressing OK without reading changes nothing. Holding OK still unpairs, as before. Stopping the stream, a new cast, or unpairing takes the card away with it.\n- The phone side of this question arrives in the next phone release; a television on 0.1.20 is ready for it, and a television on an older version simply never shows the card.\n\n## WHAT STAYS THE SAME\n\n- Pairing, casting, play/pause and stop, the skip keys, hold \u25b2 for 8x on the Samsung set, the Loading screen, the waiting screen that moves and goes dark, the connection check every 45 seconds, a dropped stream coming back on its own, and the update check on every start.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.20"
+  "versionCode": 1021,
+  "versionName": "0.1.21",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/perchtv-v0.1.21/PerchTV-v0.1.21.apk",
+  "apkSha256": "f27cf53edda268c408d1d2b0c52960c0bc296705b4f32666f565e694944d9747",
+  "changelog": "# PerchTV 0.1.21\n\nThe Samsung set shows the PerchTV artwork on its home screen.\n\n## WHAT CHANGED\n\n- On the Samsung set: the PerchTV tile in Smart Hub now carries the PerchTV artwork \u2014 the bird on its perch \u2014 instead of the stock placeholder the set drew before.\n- On the Onn: no change of its own. Both televisions move to 0.1.21 together.\n\n## WHAT STAYS THE SAME\n\n- Pairing, casting, play/pause and stop, the skip keys, hold \u25b2 for 8x on the Samsung set, the Loading screen, the waiting screen that moves and goes dark, the connection check every 45 seconds, a dropped stream coming back on its own, the question card from the phone, and the update check on every start.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/perchtv-v0.1.21"
 }
