@@ -1,8 +1,8 @@
 {
-  "versionCode": 61,
-  "versionName": "0.5.9",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.5.9/MobileIPTV-v0.5.9.apk",
-  "apkSha256": "edc69fc2841d3dbcd8bf8ebc8eef824b68b3c519d55c855f8896c44d4f8fbd6e",
-  "changelog": "Several phones on one television, and the phone says which app it is.\n\nWHAT CHANGED\n\n- When it pairs with PerchTV, the phone now introduces itself as MobileIPTV on your phone's model, so the television's list of phones says which app each one is.\n- A PerchTV television can now hold up to eight phones at once. If another phone starts playing on the television, the cast on this phone ends and says \"Another phone is now using the television.\"\n- A television that already has eight phones says so when you try to pair: \"This television already has eight phones. Unpair one on the television first.\"\n\nWHAT STAYS THE SAME\n\n- Everything from 0.5.8: the phone's player name sent to the television, series that follow your settings, the tidied guide.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.5.9"
+  "versionCode": 62,
+  "versionName": "0.5.10",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.5.10/MobileIPTV-v0.5.10.apk",
+  "apkSha256": "eebc4edac3b2a45701398d1db5bedd186ba5ff929909aa64df53adbf1a08f59a",
+  "changelog": "The television's \"another phone\" message, only when it is about you.\n\nWHAT CHANGED\n\n- MobileIPTV no longer says \"Another phone is now using the television.\" when you open it while another phone is casting. The message now appears only when it was your own cast that another phone replaced.\n\nWHAT STAYS THE SAME\n\n- Everything from 0.5.9: the phone's name on the television, up to eight phones per television, and the player name the phone sends.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.5.10"
 }
