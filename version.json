@@ -1,8 +1,8 @@
 {
-  "versionCode": 73,
-  "versionName": "0.6.3",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.6.3/MobileIPTV-v0.6.3.apk",
-  "apkSha256": "5cc131501964fb51f0a0eeadbf6a64bdf2c9ff5066ef10cfe7bec672cf9ad52a",
-  "changelog": "Opening a category in a very large catalog is much faster, and a background index rebuild that fails now says so in Settings.\n\nWHAT CHANGED\n\n- Opening a category, or a series' episodes, in a catalog of a million channels or more takes a few milliseconds instead of about a third of a second. The phone read the whole provider to fill one category's page; it now reads just that category.\n- After a large import, the indexes that make browsing and search fast are rebuilt in the background. If that rebuild fails, it is tried again, and if it still fails, Settings says so under the refresh. The rebuild also waits for an import that is still running, instead of competing with it.\n\nWHAT STAYS THE SAME\n\n- Everything from 0.6.2: closing the picture-in-picture window stops the channel, and a dark-mode switch keeps it playing.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.6.3"
+  "versionCode": 74,
+  "versionName": "0.6.4",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.6.4/MobileIPTV-v0.6.4.apk",
+  "apkSha256": "5cd100011703d9a69cd63c0df3103725d07128b5859ddd82ffe6cd11535f14db",
+  "changelog": "Browsing stays fast in very large catalogs after every refresh, and Settings' notice about a failed index rebuild is more reliable.\n\nWHAT CHANGED\n\n- After each refresh the app records how large each provider, category and series really is, so the database picks the quick way to read a list on its own. Before, it estimated every list as the same size and needed fixed hints to choose well; the hints stay as a second line.\n- If a background index rebuild fails, Settings keeps saying so until a later rebuild succeeds, even if you start another refresh meanwhile. A rebuild stuck behind a long import now gives up after 7 minutes and reports, instead of trying again and again without a word.\n- If an import is interrupted while it is setting the indexes aside, they are always rebuilt at the next start.\n\nWHAT STAYS THE SAME\n\n- Everything from 0.6.3: a category in a catalog of a million channels or more opens in a few milliseconds.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.6.4"
 }
