@@ -1,8 +1,8 @@
 {
-  "versionCode": 75,
-  "versionName": "0.6.5",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.6.5/MobileIPTV-v0.6.5.apk",
-  "apkSha256": "baf21bd3d235427c320b427b71aced0fa8a515f59dd30bb9910f287199a8c63d",
-  "changelog": "Plex episodes and films can now be sent to your television, and the playback stats panel is its own setting.\n\nWHAT CHANGED\n\n- A long press on a Plex episode or film offers \"Send to\" your paired television, as it already did for channels and other films. The television plays it straight from your Plex server, so it has to be on the same network.\n- The playback stats panel over the video has its own switch, \"Playback stats overlay\" under Diagnostics. It is off by default and only works while Diagnostic mode is on, which keeps logging the numbers either way. Tap the panel to hide it for the video you are watching.\n- Two fixes in the background index rebuild after a large import: it can no longer get stuck holding up later imports until the app restarts, and Settings says more accurately whether it failed.\n\nWHAT STAYS THE SAME\n\n- Everything from 0.6.4: browsing stays fast in very large catalogs after every refresh.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.6.5"
+  "versionCode": 76,
+  "versionName": "0.6.6",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.6.6/MobileIPTV-v0.6.6.apk",
+  "apkSha256": "7371973ea7e709210d198046c2ca625bf3e67e8dd72968ec84e9a15786b983a9",
+  "changelog": "A live channel no longer stops when its audio carries a damaged frame header.\n\nWHAT CHANGED\n\n- Some live channels carry Dolby Digital (AC-3 or E-AC-3) audio with an occasional damaged frame header. Until now one such header stopped the channel: the picture froze, went black, and every retry stopped again within seconds. Now the damaged piece of audio is skipped, a fraction of a second, and the channel plays on.\n- A channel whose audio is damaged throughout, with no good audio for a couple of seconds, still stops with an error rather than playing on in silence.\n\nWHAT STAYS THE SAME\n\n- Everything from 0.6.5: Plex episodes and films can be sent to your television, and the playback stats panel is its own setting.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.6.6"
 }
