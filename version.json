@@ -1,8 +1,8 @@
 {
-  "versionCode": 74,
-  "versionName": "0.6.4",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.6.4/MobileIPTV-v0.6.4.apk",
-  "apkSha256": "5cd100011703d9a69cd63c0df3103725d07128b5859ddd82ffe6cd11535f14db",
-  "changelog": "Browsing stays fast in very large catalogs after every refresh, and Settings' notice about a failed index rebuild is more reliable.\n\nWHAT CHANGED\n\n- After each refresh the app records how large each provider, category and series really is, so the database picks the quick way to read a list on its own. Before, it estimated every list as the same size and needed fixed hints to choose well; the hints stay as a second line.\n- If a background index rebuild fails, Settings keeps saying so until a later rebuild succeeds, even if you start another refresh meanwhile. A rebuild stuck behind a long import now gives up after 7 minutes and reports, instead of trying again and again without a word.\n- If an import is interrupted while it is setting the indexes aside, they are always rebuilt at the next start.\n\nWHAT STAYS THE SAME\n\n- Everything from 0.6.3: a category in a catalog of a million channels or more opens in a few milliseconds.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.6.4"
+  "versionCode": 75,
+  "versionName": "0.6.5",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.6.5/MobileIPTV-v0.6.5.apk",
+  "apkSha256": "baf21bd3d235427c320b427b71aced0fa8a515f59dd30bb9910f287199a8c63d",
+  "changelog": "Plex episodes and films can now be sent to your television, and the playback stats panel is its own setting.\n\nWHAT CHANGED\n\n- A long press on a Plex episode or film offers \"Send to\" your paired television, as it already did for channels and other films. The television plays it straight from your Plex server, so it has to be on the same network.\n- The playback stats panel over the video has its own switch, \"Playback stats overlay\" under Diagnostics. It is off by default and only works while Diagnostic mode is on, which keeps logging the numbers either way. Tap the panel to hide it for the video you are watching.\n- Two fixes in the background index rebuild after a large import: it can no longer get stuck holding up later imports until the app restarts, and Settings says more accurately whether it failed.\n\nWHAT STAYS THE SAME\n\n- Everything from 0.6.4: browsing stays fast in very large catalogs after every refresh.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.6.5"
 }
