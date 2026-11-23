@@ -1,8 +1,8 @@
 {
-  "versionCode": 76,
-  "versionName": "0.6.6",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.6.6/MobileIPTV-v0.6.6.apk",
-  "apkSha256": "7371973ea7e709210d198046c2ca625bf3e67e8dd72968ec84e9a15786b983a9",
-  "changelog": "A live channel no longer stops when its audio carries a damaged frame header.\n\nWHAT CHANGED\n\n- Some live channels carry Dolby Digital (AC-3 or E-AC-3) audio with an occasional damaged frame header. Until now one such header stopped the channel: the picture froze, went black, and every retry stopped again within seconds. Now the damaged piece of audio is skipped, a fraction of a second, and the channel plays on.\n- A channel whose audio is damaged throughout, with no good audio for a couple of seconds, still stops with an error rather than playing on in silence.\n\nWHAT STAYS THE SAME\n\n- Everything from 0.6.5: Plex episodes and films can be sent to your television, and the playback stats panel is its own setting.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.6.6"
+  "versionCode": 77,
+  "versionName": "0.6.7",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.6.7/MobileIPTV-v0.6.7.apk",
+  "apkSha256": "c886eb39acd31c15e18ace277590a29d1d142b105dff03ca2ebe724d505e2cfb",
+  "changelog": "Closing the picture-in-picture window no longer leaves a black screen.\n\nWHAT CHANGED\n\n- If you closed the small picture-in-picture window and then opened the app again, it showed a black screen. Now it opens on the list you were browsing.\n- The same applies when a recording takes over the stream from full screen, and when the phone has closed the app in the background and you come back to it.\n\nWHAT STAYS THE SAME\n\n- Everything from 0.6.6: a live channel no longer stops when its audio carries a damaged frame header.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.6.7"
 }
