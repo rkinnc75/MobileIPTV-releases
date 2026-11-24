@@ -1,8 +1,8 @@
 {
-  "versionCode": 77,
-  "versionName": "0.6.7",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.6.7/MobileIPTV-v0.6.7.apk",
-  "apkSha256": "c886eb39acd31c15e18ace277590a29d1d142b105dff03ca2ebe724d505e2cfb",
-  "changelog": "Closing the picture-in-picture window no longer leaves a black screen.\n\nWHAT CHANGED\n\n- If you closed the small picture-in-picture window and then opened the app again, it showed a black screen. Now it opens on the list you were browsing.\n- The same applies when a recording takes over the stream from full screen, and when the phone has closed the app in the background and you come back to it.\n\nWHAT STAYS THE SAME\n\n- Everything from 0.6.6: a live channel no longer stops when its audio carries a damaged frame header.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.6.7"
+  "versionCode": 78,
+  "versionName": "0.6.8",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.6.8/MobileIPTV-v0.6.8.apk",
+  "apkSha256": "c4e54cb0ee2f94bdde60d1a74916d19df69fbeb086dbd9444f639297085bd5cb",
+  "changelog": "Send what you are watching to your TV from the player, and the phone pauses once the TV starts.\n\nWHAT CHANGED\n\n- While a TV is paired, the player has a TV button. It sends what is playing to the TV, the same as the long-press menu does.\n- A film or episode sent from the player carries where you are in it. Your TV starts it there once its own PerchTV update arrives; until then it starts from the beginning.\n- When the TV starts playing what you sent, from the player or from a list, the phone pauses its own copy, so you do not hear it twice. If the TV cannot play it, the phone keeps playing. Press play on the phone to pick it up again.\n\nWHAT STAYS THE SAME\n\n- Everything from 0.6.7: closing the picture-in-picture window returns to the list, not a black screen.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.6.8"
 }
