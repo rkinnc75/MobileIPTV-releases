@@ -1,8 +1,8 @@
 {
-  "versionCode": 80,
-  "versionName": "0.6.10",
-  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.6.10/MobileIPTV-v0.6.10.apk",
-  "apkSha256": "ec02873519a18c7343e880716b6cf8eadbd2739babd39807c899230af9d5ee54",
-  "changelog": "A source can use another IPTV app's name for its streams, and sending from the player hands the stream to the TV.\n\nWHAT CHANGED\n\n- Each source has a User-agent setting (More \u2192 Sources \u2192 the source): App default, TiviMate, IPTV Smarters Pro or Chromecast HD. Some providers refuse an app they do not know; another app's name gets their streams through. The TV uses the same name for that source's channels.\n- Pressing TV in the player now stops the phone's own stream before sending, so a provider that allows one connection at a time can open it on the TV. If the TV cannot start it, the phone plays it again from where it was; Play does the same later.\n\nWHAT STAYS THE SAME\n\n- Everything from 0.6.9: Plex films and episodes sent to the TV over your home network, and the TV button in the player.",
-  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.6.10"
+  "versionCode": 81,
+  "versionName": "0.6.11",
+  "apkUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/download/v0.6.11/MobileIPTV-v0.6.11.apk",
+  "apkSha256": "c2a9498fe45b5f68109839f692acd28ede4680eaefcf9e1e9843028c878f6893",
+  "changelog": "Plex sends now say which address they used, and the work behind tonight's television update.\n\nWHAT CHANGED\n\n- When you send a Plex film or episode to the TV, the app's log now names which address it chose and why, which helps when a Plex server is only reachable from outside your home.\n- Captions sent to the TV no longer show formatting codes such as {\\an8} (with PerchTV 0.1.38).\n\nWHAT STAYS THE SAME\n\n- Everything from 0.6.10: the User-agent setting for each source, and the TV button handing the stream to the TV.",
+  "releasePageUrl": "https://github.com/rkinnc75/MobileIPTV-releases/releases/tag/v0.6.11"
 }
